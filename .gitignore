@@ -179,8 +179,7 @@ __pycache__/
 .ipynb_checkpoints
 
 # Directorios de datos
-data/raw/
-data/processed/
+data/
 
 # Archivos de resultados
 results/
