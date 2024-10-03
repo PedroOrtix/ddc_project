@@ -1,6 +1,6 @@
-# Proyecto de Descubrimiento del Conocimiento en TikTok
+# Proyecto de Descubrimiento del Conocimiento en Instagram
 
-Este proyecto tiene como objetivo analizar y extraer conocimiento de videos de TikTok utilizando técnicas de minería de datos y aprendizaje automático.
+Este proyecto tiene como objetivo analizar y extraer conocimiento de perfiles de Instagram utilizando técnicas de minería de datos y aprendizaje automático.
 
 ## Estructura del Proyecto
 
@@ -21,7 +21,7 @@ El proyecto está dividido en cinco fases principales:
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/ddc_project.git
+   git clone https://github.com/PedroOrtix/ddc_project.git
    cd ddc_project
    ```
 
