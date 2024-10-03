@@ -5,7 +5,7 @@ import sys
 # Asegurarse de que el directorio base este en sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from organize_files import create_directories, organize_instagram_files
+from data_collection.organize_files import create_directories, organize_instagram_files
 
 def instagram_profile_downloader(username, base_directory, download_params):
     """
