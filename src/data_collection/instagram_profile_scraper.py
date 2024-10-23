@@ -57,6 +57,3 @@ def download_instagram_profile_metadata(username, base_directory):
     
     except Exception as e:
         print(f"Ocurrió un error al descargar la metadata del perfil de {username}: {e}")
-
-# Ejemplo de uso
-# download_instagram_profile_metadata('username', '/path/to/base_directory')

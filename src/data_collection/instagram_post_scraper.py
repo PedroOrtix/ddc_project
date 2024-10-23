@@ -1,8 +1,8 @@
-from instaloader import Instaloader, Profile, FrozenNodeIterator, resumable_iteration, Post
 import os
 import sys
 import json
 from datetime import datetime
+from instaloader import Instaloader, Profile, FrozenNodeIterator, resumable_iteration, Post
 
 # Asegurarse de que el directorio base esté en sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -119,7 +119,3 @@ def download_instagram_posts(username, base_directory):
     except Exception as e:
         # Manejar excepciones y mostrar mensaje de error
         print(f"Ocurrió un error al descargar el perfil de {username}: {e}")
-
-
-# Ejemplo de uso
-# download_instagram_posts('username', '/path/to/base_directory')
